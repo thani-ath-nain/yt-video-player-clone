@@ -1,0 +1,12 @@
+.menu-button {
+	height: 25px;
+	width: 20px;
+	padding: 10px 0 0 20px;
+}
+.yt-logo {
+	position: relative;
+	height: 30px;
+	width: 30px;
+	top: -34px; /*Aligned better that way*/
+	left: 60px;
+}
