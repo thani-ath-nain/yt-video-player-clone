@@ -9,6 +9,16 @@
 			type="image/png"
 		/>
 		<link rel="stylesheet" href="./style/main.css" />
+		<link rel="preconnect" href="https://fonts.gstatic.com" />
+		<link
+			href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,400;0,500;0,900;1,100&display=swap"
+			rel="stylesheet"
+		/>
+		<link
+			rel="stylesheet"
+			href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+		/>
+		<script src="https://code.iconify.design/1/1.0.7/iconify.min.js"></script>
 	</head>
 	<body>
 		<div class="top-bar">
@@ -19,11 +29,48 @@
 			/>
 			<header>
 				<img
-					src="./img/YouTube-icon.png"
-					alt="Youtube Logo"
 					class="yt-logo"
-				/>Youtube
+					src="https://img.icons8.com/color/48/000000/youtube-play.png"
+				/>
+				<p class="company-name">YouTube</p>
 			</header>
+
+			<div class="search-bar">
+				<form action="">
+					<input type="text" placeholder="Search" />
+					<button type="submit"><i class="fa fa-search"></i></button>
+				</form>
+				<img
+					class="mic-image"
+					src="https://img.icons8.com/android/18/000000/microphone.png"
+				/>
+				<img
+					class="add-video"
+					src="https://img.icons8.com/android/18/000000/video-call.png"
+				/>
+				<img
+					class="apps-grid"
+					src="https://img.icons8.com/metro/18/000000/activity-grid-2.png"
+				/>
+				<span
+					class="iconify"
+					data-icon="mdi-bell"
+					data-inline="false"
+				></span>
+				<img
+					class="profile-pic"
+					src="https://img.icons8.com/material-sharp/18/000000/user-male-circle.png"
+				/>
+			</div>
 		</div>
+		<iframe
+			class="video-player"
+			width="850"
+			height="500"
+			src="https://www.youtube.com/embed/V74l_zS1x8E"
+			frameborder="0"
+			allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+			allowfullscreen
+		></iframe>
 	</body>
 </html>
